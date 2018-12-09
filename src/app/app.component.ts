@@ -13,6 +13,7 @@ export class AppComponent {
   }
 
   contact: any;
+  contacts: any[] = [];
 
   constructor() {
     this.contact = {
