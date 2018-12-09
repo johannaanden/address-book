@@ -16,6 +16,10 @@ export class AppComponent {
   contacts: any[] = [];
 
   constructor() {
+    this.initContact();
+  }
+
+  private initContact() {
     this.contact = {
       name: ``,
       email: ``,
